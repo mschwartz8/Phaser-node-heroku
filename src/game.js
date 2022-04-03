@@ -16,6 +16,7 @@ import Phaser from 'phaser';
 import { Boot } from './scenes/boot'
 import { Preloader } from './scenes/preloader'
 import { MainMenu } from './scenes/mainMenu'
+import { Engineering } from './scenes/Engineering'
 
 //levels
 import { Lvl_1 } from './levels/lvl1'
@@ -34,10 +35,7 @@ let gameConfig = {
       }
     },
     scene: [
-      Boot,
-      Preloader,
-      MainMenu,
-      Lvl_1
+      Engineering
     ],
     resize: resize
 }

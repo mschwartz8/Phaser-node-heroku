@@ -13,7 +13,7 @@ export class MainMenu extends Phaser.Scene{
     });
 
     this.input.keyboard.on('keydown_SPACE', function (event) {
-      this.scene.start('lvl_1');
+      this.scene.start('Engineering');
     }, this)
   }
 }
